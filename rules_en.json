@@ -1,0 +1,798 @@
+[
+  {
+    "title": "Book Doctor Appointment",
+    "category": "Health",
+    "keywords": [
+      "book doctor",
+      "doctor appointment",
+      "appointment",
+      "consult doctor",
+      "see doctor",
+      "medical appointment",
+      "fix appointment",
+      "டாக்டர் அப்பாயின்ட்மென்ட்",
+      "டாக்டர் பார்க்க",
+      "அப்பாயின்ட்மென்ட்",
+      "மருத்துவர் சந்திப்பு",
+      "டாக்டரை பார்க்க"
+    ],
+    "steps": [
+      "Step 1: Open your phone and tap the browser app (Chrome or Safari).",
+      "Step 2: Type 'Practo' or 'Apollo' in the search bar and press Search.",
+      "Step 3: Tap 'Find Doctors' and type your doctor's name or health problem.",
+      "Step 4: Choose a doctor from the list and tap 'Book Appointment'.",
+      "Step 5: Select a date and time that works for you.",
+      "Step 6: Enter your name and phone number when asked.",
+      "Step 7: Tap 'Confirm Booking'. You will get a message on your phone."
+    ],
+    "warning": "If you feel very unwell, please call 108 immediately instead of booking online."
+  },
+  {
+    "title": "Order Medicines Online",
+    "category": "Health",
+    "keywords": [
+      "order medicine",
+      "buy medicine",
+      "medicine online",
+      "order tablets",
+      "buy tablets",
+      "pharmacy online",
+      "medicine delivery",
+      "order drugs",
+      "மருந்து வாங்க",
+      "மருந்து ஆர்டர்",
+      "மாத்திரை வாங்க",
+      "ஆன்லைன் மருந்து",
+      "மருந்து டெலிவரி",
+      "மாத்திரை ஆர்டர்"
+    ],
+    "steps": [
+      "Step 1: Open your phone and tap the browser or PharmEasy / Netmeds app.",
+      "Step 2: Tap the search bar and type the name of your medicine.",
+      "Step 3: Find your medicine in the list and tap on it.",
+      "Step 4: Tap 'Add to Cart' and then tap 'Go to Cart'.",
+      "Step 5: Upload a photo of your doctor's prescription if asked.",
+      "Step 6: Enter your home address for delivery.",
+      "Step 7: Choose 'Cash on Delivery' if you do not want to pay online.",
+      "Step 8: Tap 'Place Order'. Your medicine will arrive in 1-3 days."
+    ],
+    "warning": "Always order medicines only with a valid doctor's prescription. Do not self-medicate."
+  },
+  {
+    "title": "Find Nearby Hospital",
+    "category": "Health",
+    "keywords": [
+      "nearby hospital",
+      "find hospital",
+      "hospital near me",
+      "closest hospital",
+      "nearest hospital",
+      "hospital location",
+      "where is hospital",
+      "அருகில் மருத்துவமனை",
+      "மருத்துவமனை எங்கே",
+      "நெருங்கிய மருத்துவமனை",
+      "மருத்துவமனை தேட",
+      "அருகே மருத்துவமனை"
+    ],
+    "steps": [
+      "Step 1: Open Google Maps on your phone (blue and white map icon).",
+      "Step 2: Tap the search bar at the top of the screen.",
+      "Step 3: Type 'hospital near me' and tap the Search button.",
+      "Step 4: A list of nearby hospitals will appear on the screen.",
+      "Step 5: Tap on any hospital name to see its address and phone number.",
+      "Step 6: Tap 'Directions' to get step-by-step directions from your location.",
+      "Step 7: You can also tap 'Call' to directly call the hospital."
+    ],
+    "warning": "In a medical emergency, call 108 immediately. Do not drive yourself to the hospital."
+  },
+  {
+    "title": "Call Ambulance",
+    "category": "Health",
+    "keywords": [
+      "call ambulance",
+      "ambulance",
+      "emergency",
+      "medical emergency",
+      "need ambulance",
+      "emergency help",
+      "108",
+      "ஆம்புலன்ஸ்",
+      "அவசர உதவி",
+      "ஆம்புலன்ஸ் அழை",
+      "அவசரநிலை",
+      "உதவி வேண்டும்",
+      "மருத்துவ அவசரம்",
+      "108 அழை"
+    ],
+    "steps": [
+      "Step 1: Stay calm and do not panic.",
+      "Step 2: Pick up your phone and open the dialer (green phone icon).",
+      "Step 3: Dial 1 - 0 - 8 and press the green call button.",
+      "Step 4: Tell the person your name and address clearly.",
+      "Step 5: Describe the emergency — for example, 'chest pain' or 'person fell down'.",
+      "Step 6: Stay on the line and follow their instructions.",
+      "Step 7: Unlock your front door so the ambulance team can enter easily."
+    ],
+    "warning": "108 is free to call at any time, day or night. Do not hesitate to call in an emergency."
+  },
+  {
+    "title": "Set Medicine Reminder",
+    "category": "Health",
+    "keywords": [
+      "medicine reminder",
+      "tablet reminder",
+      "set reminder",
+      "remind medicine",
+      "alarm for medicine",
+      "medicine alarm",
+      "remind tablet",
+      "மருந்து நினைவூட்டல்",
+      "மாத்திரை ரிமைண்டர்",
+      "மருந்து அலாரம்",
+      "நினைவூட்டல் வை",
+      "மாத்திரை நேரம்",
+      "மருந்து நேரம் அமை"
+    ],
+    "steps": [
+      "Step 1: Open the Clock app on your phone (it looks like a clock face).",
+      "Step 2: Tap 'Alarm' at the bottom of the screen.",
+      "Step 3: Tap the '+' button to add a new alarm.",
+      "Step 4: Set the time you need to take your medicine.",
+      "Step 5: Tap 'Label' or 'Name' and type the medicine name.",
+      "Step 6: Choose the days you need the reminder (e.g., every day).",
+      "Step 7: Tap 'Save'. Your phone will ring at that time every day."
+    ],
+    "warning": "Do not skip your medicines even if you feel better. Always complete the full course."
+  },
+  {
+    "title": "Download Vaccination Certificate",
+    "category": "Health",
+    "keywords": [
+      "vaccination certificate",
+      "vaccine certificate",
+      "covid certificate",
+      "download certificate",
+      "cowin certificate",
+      "immunization certificate",
+      "தடுப்பூசி சான்றிதழ்",
+      "தடுப்பூசி சர்டிபிகேட்",
+      "கோவின் சான்றிதழ்",
+      "தடுப்பூசி டவுன்லோட்",
+      "சான்றிதழ் பதிவிறக்கம்"
+    ],
+    "steps": [
+      "Step 1: Open your phone browser and go to cowin.gov.in.",
+      "Step 2: Tap 'Register / Sign In Yourself' on the home page.",
+      "Step 3: Enter your mobile number and tap 'Get OTP'.",
+      "Step 4: Check your SMS for the OTP number and type it in.",
+      "Step 5: Tap on your name from the list of members shown.",
+      "Step 6: Tap 'Certificate' to view your vaccination certificate.",
+      "Step 7: Tap 'Download' to save it to your phone as a PDF."
+    ],
+    "warning": "Keep your vaccination certificate saved safely. You may need it for travel or hospital visits."
+  },
+  {
+    "title": "Pay Electricity Bill",
+    "category": "Banking & Payments",
+    "keywords": [
+      "pay electricity bill",
+      "electricity bill",
+      "EB bill",
+      "power bill",
+      "current bill",
+      "TNEB payment",
+      "electricity payment",
+      "மின் கட்டணம்",
+      "மின்சார பில்",
+      "கரண்ட் பில்",
+      "TNEB கட்டணம்",
+      "மின்சாரம் பணம் கட்ட",
+      "EB கட்டணம்"
+    ],
+    "steps": [
+      "Step 1: Open Google Pay, PhonePe, or Paytm app on your phone.",
+      "Step 2: Tap 'Electricity' or 'Bill Payments' on the home screen.",
+      "Step 3: Select your electricity provider (e.g., TNEB for Tamil Nadu).",
+      "Step 4: Enter your Consumer Number from your electricity bill.",
+      "Step 5: Tap 'Fetch Bill' to see the amount due.",
+      "Step 6: Confirm the amount and tap 'Pay Now'.",
+      "Step 7: Enter your UPI PIN to complete the payment.",
+      "Step 8: Save or take a screenshot of the payment receipt."
+    ],
+    "warning": "Never share your UPI PIN or OTP with anyone, even if they claim to be from the bank or electricity board."
+  },
+  {
+    "title": "Pay Water Bill",
+    "category": "Banking & Payments",
+    "keywords": [
+      "pay water bill",
+      "water bill",
+      "water tax",
+      "water payment",
+      "CMWSSB",
+      "water board payment",
+      "water charges",
+      "தண்ணீர் பில்",
+      "நீர் கட்டணம்",
+      "வாட்டர் பில்",
+      "தண்ணீர் வரி",
+      "குடிநீர் கட்டணம்",
+      "நீர் வாரியம் பணம்"
+    ],
+    "steps": [
+      "Step 1: Open Google Pay, PhonePe, or Paytm app on your phone.",
+      "Step 2: Tap 'Water' or 'Bill Payments' on the home screen.",
+      "Step 3: Select your city's water board from the list.",
+      "Step 4: Enter your Consumer ID or Connection Number from your water bill.",
+      "Step 5: Tap 'Fetch Bill' to see your outstanding amount.",
+      "Step 6: Verify the amount and tap 'Pay Now'.",
+      "Step 7: Enter your UPI PIN to complete the payment.",
+      "Step 8: Screenshot the confirmation page as proof of payment."
+    ],
+    "warning": "Always pay bills only through official apps like Google Pay or Paytm. Do not pay through unknown links sent via SMS or WhatsApp."
+  },
+  {
+    "title": "Recharge Mobile",
+    "category": "Banking & Payments",
+    "keywords": [
+      "recharge mobile",
+      "mobile recharge",
+      "phone recharge",
+      "top up",
+      "prepaid recharge",
+      "recharge number",
+      "add talktime",
+      "மொபைல் ரீசார்ஜ்",
+      "போன் ரீசார்ஜ்",
+      "ரீசார்ஜ் செய்ய",
+      "டாக் டைம்",
+      "மொபைல் டாப் அப்",
+      "சிம் ரீசார்ஜ்"
+    ],
+    "steps": [
+      "Step 1: Open Google Pay, PhonePe, or Paytm app on your phone.",
+      "Step 2: Tap 'Mobile Recharge' on the home screen.",
+      "Step 3: Enter the mobile number you want to recharge.",
+      "Step 4: Your network provider (Airtel, Jio, BSNL, Vi) will be detected automatically.",
+      "Step 5: Choose a recharge plan from the list or enter a custom amount.",
+      "Step 6: Tap 'Proceed' and review the details.",
+      "Step 7: Enter your UPI PIN to complete the payment.",
+      "Step 8: You will receive an SMS confirming the recharge."
+    ],
+    "warning": "Recharge only your own number or numbers of people you know. Beware of fake calls asking you to recharge unknown numbers."
+  },
+  {
+    "title": "Send Money Using UPI",
+    "category": "Banking & Payments",
+    "keywords": [
+      "send money",
+      "transfer money",
+      "UPI payment",
+      "pay someone",
+      "money transfer",
+      "send using UPI",
+      "NEFT",
+      "IMPS",
+      "பணம் அனுப்ப",
+      "பணம் ட்ரான்ஸ்பர்",
+      "UPI பணம்",
+      "பணம் கொடுக்க",
+      "யூபிஐ பேமெண்ட்",
+      "பணம் செலுத்த"
+    ],
+    "steps": [
+      "Step 1: Open Google Pay or PhonePe on your phone.",
+      "Step 2: Tap 'Send Money' or 'Transfer' on the home screen.",
+      "Step 3: Enter the recipient's mobile number or UPI ID.",
+      "Step 4: Type the amount you want to send.",
+      "Step 5: Add a note if needed (e.g., 'rent' or 'groceries').",
+      "Step 6: Tap 'Pay' and carefully review the receiver's name shown on screen.",
+      "Step 7: Enter your UPI PIN only after confirming the correct person.",
+      "Step 8: Save the transaction ID shown on the success screen."
+    ],
+    "warning": "Always verify the receiver's name before entering your UPI PIN. Never send money to unknown persons. You will NEVER be asked for your PIN to RECEIVE money — that is a scam."
+  },
+  {
+    "title": "Check Bank Balance",
+    "category": "Banking & Payments",
+    "keywords": [
+      "check balance",
+      "bank balance",
+      "account balance",
+      "how much money",
+      "check account",
+      "passbook balance",
+      "available balance",
+      "இருப்பு பார்க்க",
+      "பேங்க் பேலன்ஸ்",
+      "கணக்கு இருப்பு",
+      "பணம் எவ்வளவு",
+      "வங்கி இருப்பு",
+      "அக்கவுண்ட் பேலன்ஸ்"
+    ],
+    "steps": [
+      "Step 1: Open your bank's official app (e.g., SBI YONO, Canara ai1, IOB Mobile).",
+      "Step 2: Log in using your MPIN or fingerprint.",
+      "Step 3: Tap 'Account Summary' or 'My Accounts' on the home screen.",
+      "Step 4: Your current balance will be displayed on the screen.",
+      "Step 5: Alternatively, you can give a missed call to your bank's balance enquiry number.",
+      "Step 6: SBI: 09223766666 | Canara Bank: 09015734734 | Indian Bank: 180042500000.",
+      "Step 7: Your balance will be sent to your registered mobile number by SMS."
+    ],
+    "warning": "Use only your bank's official app. Do not check your balance on public Wi-Fi or shared phones."
+  },
+  {
+    "title": "Download Bank Statement",
+    "category": "Banking & Payments",
+    "keywords": [
+      "bank statement",
+      "download statement",
+      "account statement",
+      "transaction history",
+      "mini statement",
+      "passbook download",
+      "வங்கி அறிக்கை",
+      "ஸ்டேட்மென்ட் டவுன்லோட்",
+      "கணக்கு விவரம்",
+      "பரிவர்த்தனை வரலாறு",
+      "மினி ஸ்டேட்மென்ட்",
+      "பாஸ்புக் அறிக்கை"
+    ],
+    "steps": [
+      "Step 1: Open your bank's official mobile app and log in.",
+      "Step 2: Tap 'Accounts' or 'Account Summary'.",
+      "Step 3: Select the account for which you need a statement.",
+      "Step 4: Tap 'Statement' or 'Transaction History'.",
+      "Step 5: Choose the date range (e.g., last 3 months or last 6 months).",
+      "Step 6: Tap 'Download' or 'View Statement'.",
+      "Step 7: The statement will be saved as a PDF on your phone.",
+      "Step 8: You can find it in your phone's Downloads folder."
+    ],
+    "warning": "Bank statements contain sensitive personal information. Do not share them with unknown persons or agencies."
+  },
+  {
+    "title": "Block ATM Card",
+    "category": "Banking & Payments",
+    "keywords": [
+      "block ATM",
+      "block card",
+      "lost card",
+      "stolen card",
+      "debit card block",
+      "ATM card lost",
+      "freeze card",
+      "cancel card",
+      "ATM கார்டு தடுக்க",
+      "கார்டு ப்ளாக்",
+      "ATM தொலைந்தது",
+      "கார்டு தொலைந்தது",
+      "டெபிட் கார்டு ப்ளாக்",
+      "கார்டு ரத்து செய்ய"
+    ],
+    "steps": [
+      "Step 1: Do NOT panic. Act quickly to protect your money.",
+      "Step 2: Call your bank's 24-hour helpline immediately.",
+      "Step 3: SBI: 1800112211 | Canara Bank: 18004250018 | Indian Bank: 18004250000.",
+      "Step 4: Press the option for 'Block ATM Card' in the phone menu.",
+      "Step 5: Provide your account number and registered mobile number when asked.",
+      "Step 6: Confirm the card block. You will get an SMS confirmation.",
+      "Step 7: Alternatively, open your bank app → Cards → Block Card.",
+      "Step 8: Visit your nearest branch to request a new replacement card."
+    ],
+    "warning": "Block your card IMMEDIATELY if it is lost or stolen. Do not wait. Even a few minutes delay can result in financial loss."
+  },
+  {
+    "title": "Pay Gas Cylinder Bill",
+    "category": "Banking & Payments",
+    "keywords": [
+      "gas cylinder",
+      "pay gas bill",
+      "LPG bill",
+      "cylinder payment",
+      "book gas cylinder",
+      "LPG booking",
+      "Indane",
+      "HP Gas",
+      "Bharat Gas",
+      "கேஸ் சிலிண்டர்",
+      "எல்பிஜி பில்",
+      "சிலிண்டர் கட்டணம்",
+      "கேஸ் பில் கட்ட",
+      "சிலிண்டர் புக்கிங்",
+      "இந்தேன் கேஸ்"
+    ],
+    "steps": [
+      "Step 1: Open Google Pay, PhonePe, or Paytm app on your phone.",
+      "Step 2: Tap 'LPG Gas' or 'Bill Payments' on the home screen.",
+      "Step 3: Select your gas provider — Indane, HP Gas, or Bharat Gas.",
+      "Step 4: Enter your LPG Consumer ID or registered mobile number.",
+      "Step 5: Tap 'Book Cylinder' or 'Pay Bill' as needed.",
+      "Step 6: Confirm the amount and delivery address shown.",
+      "Step 7: Enter your UPI PIN to complete the booking and payment.",
+      "Step 8: Note the booking reference number sent to your phone."
+    ],
+    "warning": "Book your gas cylinder only through official apps or by calling 7718955555 (Indane). Ignore unknown callers offering free or discounted cylinders — these are scams."
+  },
+  {
+    "title": "Apply for Senior Citizen Pension",
+    "category": "Government Services",
+    "keywords": [
+      "senior citizen pension",
+      "old age pension",
+      "pension apply",
+      "apply pension",
+      "government pension",
+      "IGNOAPS",
+      "pension scheme",
+      "முதியோர் ஓய்வூதியம்",
+      "வயோதிக ஓய்வூதியம்",
+      "ஓய்வூதியம் விண்ணப்பம்",
+      "பென்ஷன் விண்ணப்பம்",
+      "அரசு ஓய்வூதியம்",
+      "முதியோர் பென்ஷன்"
+    ],
+    "steps": [
+      "Step 1: Visit your nearest Ration Shop or Common Service Centre (CSC) in your village or town.",
+      "Step 2: Ask for the 'Indira Gandhi National Old Age Pension Scheme' (IGNOAPS) application form.",
+      "Step 3: Fill in your name, age, address, Aadhaar number, and bank account details.",
+      "Step 4: Attach a photocopy of your Aadhaar card, age proof, and bank passbook.",
+      "Step 5: Submit the form to the Village Administrative Officer (VAO) or Block Development Office.",
+      "Step 6: Collect the acknowledgement receipt with your application reference number.",
+      "Step 7: Your application will be verified within 30 days and pension credited to your bank account."
+    ],
+    "warning": "You must be 60 years or older and belong to a Below Poverty Line (BPL) family to be eligible. Do not pay anyone to apply — this service is completely free."
+  },
+  {
+    "title": "Check Pension Status",
+    "category": "Government Services",
+    "keywords": [
+      "check pension status",
+      "pension status",
+      "pension approved",
+      "pension received",
+      "track pension",
+      "pension payment status",
+      "ஓய்வூதிய நிலை",
+      "பென்ஷன் ஸ்டேட்டஸ்",
+      "ஓய்வூதியம் வந்ததா",
+      "பென்ஷன் அனுமதி",
+      "ஓய்வூதியம் சரிபார்க்க",
+      "பென்ஷன் பணம் வந்ததா"
+    ],
+    "steps": [
+      "Step 1: Open your phone browser and go to nsap.nic.in.",
+      "Step 2: Tap 'Reports' on the top menu and then tap 'Beneficiary Search'.",
+      "Step 3: Select your State as Tamil Nadu from the dropdown.",
+      "Step 4: Enter your Aadhaar number or application reference number.",
+      "Step 5: Tap 'Search' to view your pension application status.",
+      "Step 6: The page will show whether your application is Approved, Pending, or Rejected.",
+      "Step 7: If approved, your pension amount and payment dates will also be displayed."
+    ],
+    "warning": "If your pension has not arrived for more than 2 months, visit your nearest Block Development Office with your Aadhaar card and bank passbook to raise a complaint."
+  },
+  {
+    "title": "Download Aadhaar Card",
+    "category": "Government Services",
+    "keywords": [
+      "download aadhaar",
+      "aadhaar card download",
+      "e-aadhaar",
+      "get aadhaar",
+      "aadhaar copy",
+      "print aadhaar",
+      "UIDAI download",
+      "ஆதார் டவுன்லோட்",
+      "ஆதார் கார்டு பதிவிறக்கம்",
+      "இ-ஆதார்",
+      "ஆதார் நகல்",
+      "ஆதார் பிரிண்ட்",
+      "ஆதார் கார்டு எடுக்க"
+    ],
+    "steps": [
+      "Step 1: Open your phone browser and go to myaadhaar.uidai.gov.in.",
+      "Step 2: Tap 'Download Aadhaar' on the home page.",
+      "Step 3: Enter your 12-digit Aadhaar number in the box.",
+      "Step 4: Enter the Captcha code shown on the screen (the letters and numbers in the image).",
+      "Step 5: Tap 'Send OTP' — a one-time password will be sent to your registered mobile number.",
+      "Step 6: Enter the OTP and tap 'Verify and Download'.",
+      "Step 7: The e-Aadhaar PDF will download to your phone. The PDF password is your PIN code (first 4 digits) + birth year (e.g., 600001990)."
+    ],
+    "warning": "Download your Aadhaar only from the official UIDAI website uidai.gov.in. Do not use third-party websites — they may steal your personal information."
+  },
+  {
+    "title": "Update Aadhaar Details",
+    "category": "Government Services",
+    "keywords": [
+      "update aadhaar",
+      "aadhaar update",
+      "change aadhaar",
+      "correct aadhaar",
+      "aadhaar address update",
+      "aadhaar name change",
+      "aadhaar correction",
+      "ஆதார் அப்டேட்",
+      "ஆதார் திருத்தம்",
+      "ஆதார் மாற்றம்",
+      "ஆதார் முகவரி மாற்ற",
+      "ஆதார் பெயர் திருத்த",
+      "ஆதார் சரி செய்ய"
+    ],
+    "steps": [
+      "Step 1: Open your phone browser and go to myaadhaar.uidai.gov.in.",
+      "Step 2: Tap 'Update Aadhaar Online' on the home page.",
+      "Step 3: Log in using your Aadhaar number and OTP sent to your registered mobile.",
+      "Step 4: Select what you want to update — Name, Address, Date of Birth, or Mobile Number.",
+      "Step 5: Enter the corrected details carefully.",
+      "Step 6: Upload a scanned copy or photo of your supporting document (e.g., Voter ID, Passport, Utility Bill).",
+      "Step 7: Pay the update fee of Rs. 50 online using UPI or Debit Card.",
+      "Step 8: Note the Update Request Number (URN) to track your update status later."
+    ],
+    "warning": "Carry original documents when visiting an Aadhaar Seva Kendra for in-person updates. Do not share your Aadhaar OTP with anyone offering to update your Aadhaar on your behalf — this is a common scam."
+  },
+  {
+    "title": "Apply for Government Scheme",
+    "category": "Government Services",
+    "keywords": [
+      "government scheme",
+      "apply scheme",
+      "welfare scheme",
+      "government benefit",
+      "subsidy apply",
+      "social welfare",
+      "government help",
+      "government yojana",
+      "அரசு திட்டம்",
+      "திட்ட விண்ணப்பம்",
+      "நலத் திட்டம்",
+      "அரசு உதவி",
+      "மானியம்",
+      "சமூக நலன்",
+      "அரசு யோஜனா"
+    ],
+    "steps": [
+      "Step 1: Open your phone browser and go to tnschemes.tn.gov.in for Tamil Nadu schemes.",
+      "Step 2: Browse the list of available schemes or tap the Search bar to find a specific scheme.",
+      "Step 3: Tap on the scheme name to read the eligibility conditions clearly.",
+      "Step 4: If you are eligible, tap 'Apply Now' or note the office where you must apply.",
+      "Step 5: Fill in the application form with your personal details, Aadhaar number, and bank account.",
+      "Step 6: Upload or carry required documents such as Aadhaar, income certificate, and community certificate.",
+      "Step 7: Submit the form online or at your nearest Village Administrative Office (VAO).",
+      "Step 8: Keep the acknowledgement receipt safely for future reference."
+    ],
+    "warning": "All government schemes are free to apply. If anyone asks you to pay money to process your application, refuse and report them to the nearest police station or call 1930."
+  },
+  {
+    "title": "Book Railway Ticket with Senior Concession",
+    "category": "Government Services",
+    "keywords": [
+      "railway ticket",
+      "train ticket",
+      "senior concession",
+      "book train",
+      "IRCTC booking",
+      "senior citizen train",
+      "railway concession",
+      "book ticket",
+      "ரயில் டிக்கெட்",
+      "டிரெயின் டிக்கெட்",
+      "முதியோர் சலுகை",
+      "ரயில் முதியோர்",
+      "IRCTC புக்கிங்",
+      "சீனியர் சிட்டிசன் டிக்கெட்",
+      "ரயில் சலுகை",
+      "டிக்கெட் புக் செய்ய"
+    ],
+    "steps": [
+      "Step 1: Open the IRCTC Rail Connect app or go to irctc.co.in on your browser.",
+      "Step 2: Log in with your IRCTC username and password. If you do not have one, register for free.",
+      "Step 3: Enter your 'From' station, 'To' station, and date of travel.",
+      "Step 4: Tap 'Search Trains' and choose your preferred train from the list.",
+      "Step 5: Select your class (Sleeper, AC 3-Tier, etc.) and tap 'Book Now'.",
+      "Step 6: Enter passenger details — name, age, and select 'Senior Citizen' under the passenger category.",
+      "Step 7: The discounted fare will be applied automatically (40% for men, 50% for women aged 60+).",
+      "Step 8: Complete payment using UPI or Debit Card. Save the ticket PDF sent to your email or phone."
+    ],
+    "warning": "Carry your original Aadhaar card or any government ID as age proof during your journey. The ticket checker (TTE) may ask for it to verify your senior citizen concession."
+  },
+  {
+    "title": "Make a WhatsApp Video Call",
+    "category": "Communication",
+    "keywords": [
+      "video call",
+      "whatsapp video",
+      "call family",
+      "see grandchildren",
+      "make video call",
+      "வீடியோ கால்",
+      "வாட்ஸ்அப் வீடியோ",
+      "குடும்பம் பேச",
+      "வீடியோ அழைப்பு"
+    ],
+    "steps": [
+      "Step 1: Open the WhatsApp app on your phone (green icon).",
+      "Step 2: Tap on the contact name you want to call.",
+      "Step 3: Tap the small video camera icon at the top right.",
+      "Step 4: Wait for the other person to answer.",
+      "Step 5: Speak normally and hold the phone steady.",
+      "Step 6: Tap the red button to end the call."
+    ],
+    "warning": "Only accept video calls from people you know. Do not answer unknown international numbers."
+  },
+  {
+    "title": "Set Emergency Contact on Phone",
+    "category": "Safety",
+    "keywords": [
+      "emergency contact",
+      "add emergency number",
+      "SOS contact",
+      "medical emergency contact",
+      "அவசர தொடர்பு",
+      "SOS எண்",
+      "அவசர எண் சேர்க்க"
+    ],
+    "steps": [
+      "Step 1: Open the Settings app on your phone.",
+      "Step 2: Tap 'Safety & Emergency' or search for 'Emergency'.",
+      "Step 3: Tap 'Emergency Contacts'.",
+      "Step 4: Tap 'Add Contact'.",
+      "Step 5: Choose a trusted family member.",
+      "Step 6: Save the contact.",
+      "Step 7: In emergency, press the power button 5 times quickly to activate SOS."
+    ],
+    "warning": "Choose someone who is always reachable and knows your medical condition."
+  },
+  {
+    "title": "Use Voice Assistant to Make a Call",
+    "category": "Accessibility",
+    "keywords": [
+      "voice call",
+      "google assistant call",
+      "call using voice",
+      "speak to call",
+      "குரல் மூலம் அழை",
+      "வாய்ஸ் கால்",
+      "கூகுள் அசிஸ்டன்ட்"
+    ],
+    "steps": [
+      "Step 1: Unlock your phone.",
+      "Step 2: Say 'Hey Google' or press and hold the home button.",
+      "Step 3: Say 'Call my son' or say the person's name clearly.",
+      "Step 4: The phone will automatically dial the number.",
+      "Step 5: Speak normally during the call.",
+      "Step 6: Tap the red button to end the call."
+    ],
+    "warning": "Make sure the contact name is saved correctly in your phone for voice calling to work properly."
+  },
+  {
+    "title": "Book Safe Taxi for Seniors",
+    "category": "Transport",
+    "keywords": [
+      "book taxi",
+      "uber booking",
+      "ola booking",
+      "cab for senior",
+      "டாக்ஸி புக்",
+      "கார் புக் செய்ய"
+    ],
+    "steps": [
+      "Step 1: Open Uber or Ola app.",
+      "Step 2: Enter your pickup location.",
+      "Step 3: Enter your destination.",
+      "Step 4: Choose the cab type.",
+      "Step 5: Confirm driver details shown on screen.",
+      "Step 6: Share trip details with a family member.",
+      "Step 7: Sit in the cab and confirm driver name matches app."
+    ],
+    "warning": "Never enter a vehicle if the driver name or vehicle number does not match the app details."
+  },
+  {
+    "title": "Listen to  Songs on YouTube",
+    "category": "Entertainment",
+    "keywords": [
+      "bhajan",
+      "devotional songs",
+      "listen songs",
+      "youtube",
+      "பஜன்",
+      "ஆன்மீக பாடல்",
+      "யூடியூப் பாடல்"
+    ],
+    "steps": [
+      "Step 1: Open the YouTube app.",
+      "Step 2: Tap the search icon.",
+      "Step 3: Type the name of the devotional song or god.",
+      "Step 4: Tap on the video from trusted channels.",
+      "Step 5: Adjust volume if needed.",
+      "Step 6: Tap pause when finished."
+    ],
+    "warning": "Avoid clicking unknown advertisements that ask for payment or personal details."
+  },
+  {
+    "title": "Book Gas Cylinder by Phone Call",
+    "category": "Home Utility",
+    "keywords": [
+      "book gas by phone",
+      "LPG booking call",
+      "Indane booking number",
+      "HP gas call",
+      "கேஸ் புக் செய்ய",
+      "சிலிண்டர் போன் மூலம்"
+    ],
+    "steps": [
+      "Step 1: Keep your registered mobile number with you.",
+      "Step 2: Dial 7718955555 (Indane automatic booking number).",
+      "Step 3: Follow the voice instructions carefully.",
+      "Step 4: Confirm your LPG ID when asked.",
+      "Step 5: You will receive a booking confirmation SMS.",
+      "Step 6: Note the booking number for reference."
+    ],
+    "warning": "Book gas only using official company numbers. Do not trust unknown callers offering discounts."
+  },
+  {
+    "title": "Get Directions Using Google Maps",
+    "category": "Navigation",
+    "keywords": [
+      "google maps",
+      "directions",
+      "how to go",
+      "location route",
+      "navigate",
+      "map route",
+      "கூகுள் மேப்ஸ்",
+      "வழி காண்பி",
+      "எப்படி போவது",
+      "லொகேஷன் வழி"
+    ],
+    "steps": [
+      "Step 1: Unlock your phone.",
+      "Step 2: Open the Google Maps app (colorful pin icon).",
+      "Step 3: Tap the search bar at the top.",
+      "Step 4: Type the place name (Example: Apollo Hospital Chennai).",
+      "Step 5: Tap the correct place from the list.",
+      "Step 6: Tap the 'Directions' button.",
+      "Step 7: Choose travel mode (Car, Bus, Walking).",
+      "Step 8: Tap 'Start' to begin navigation.",
+      "Step 9: Follow the voice instructions carefully."
+    ],
+    "warning": "Always stay aware of your surroundings while walking. Do not stare at the phone continuously while crossing roads."
+  },
+  {
+    "title": "Check Power Cut Schedule",
+    "category": "Utility Information",
+    "keywords": [
+      "power cut today",
+      "electricity shutdown",
+      "current cut timing",
+      "மின்தடை",
+      "கரண்ட் கட்ட்"
+    ],
+    "steps": [
+      "Step 1: Open your phone browser.",
+      "Step 2: Type your electricity board website (Example: TNEB power cut schedule).",
+      "Step 3: Enter your area name.",
+      "Step 4: Check date and timing of scheduled shutdown."
+    ],
+    "warning": "Keep emergency light or torch ready if a long power cut is scheduled."
+  },
+  {
+    "title": "Verify UPI Payment Request Before Paying",
+    "category": "Payment Safety",
+    "keywords": [
+      "upi request",
+      "collect request",
+      "money request scam",
+      "unknown payment request",
+      "UPI ரிக்வெஸ்ட்",
+      "பணம் கோரிக்கை"
+    ],
+    "steps": [
+      "Step 1: Open your UPI app.",
+      "Step 2: Check if it says 'Pay' or 'Receive'.",
+      "Step 3: If it says 'Pay', money will go from your account.",
+      "Step 4: Check receiver name carefully.",
+      "Step 5: If you don't know the person, tap 'Decline'."
+    ],
+    "warning": "You NEVER need to enter UPI PIN to receive money. That is a scam."
+  }
+]

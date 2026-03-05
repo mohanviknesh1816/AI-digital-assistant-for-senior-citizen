@@ -1,0 +1,340 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Senior Digital Assistant</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+
+<body id="body" class="light">
+
+  <header class="site-header">
+    <div class="header-left">
+      <img src="{{ url_for('static', filename='logo.png') }}" alt="Senior Digital Assistant Logo" class="logo" onerror="this.style.display='none'" />
+      <div class="header-titles">
+        <h1 class="site-title" id="main-heading">Digital Literacy Assistant for Senior Citizens</h1>
+        <p class="site-subtitle" id="main-subtitle">Your simple guide to digital services</p>
+      </div>
+    </div>
+    <div class="header-controls">
+      <div class="control-group">
+        <label for="lang-select" id="lang-label">Language:</label>
+        <select id="lang-select" class="control-select" aria-label="Select Language">
+          <option value="en">English</option>
+          <option value="ta">தமிழ்</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="theme-toggle" id="theme-label">Theme:</label>
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle light and dark mode" type="button">☀️ Light</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content" role="main">
+
+    <section class="input-section" aria-labelledby="input-heading">
+      <h2 id="input-heading" class="section-title">How can we help you today?</h2>
+      <p class="section-desc" id="input-desc">Type your question below or use the Speak button to ask by voice.</p>
+      <div class="input-wrapper">
+        <label for="user-input" class="sr-only">Enter your question</label>
+        <textarea id="user-input" class="user-input" rows="4"
+          placeholder="Example: How do I pay my electricity bill?"
+          aria-describedby="input-desc"
+          aria-label="Type your question here"></textarea>
+      </div>
+      <div class="button-row">
+        <button id="speak-btn" class="btn btn-speak" type="button" aria-label="Speak your question using microphone" disabled>🎤 Speak</button>
+        <button id="submit-btn" class="btn btn-submit" type="button" aria-label="Submit your question">🔍 Get Help</button>
+        <button id="clear-btn" class="btn btn-clear" type="button" aria-label="Clear the input field">✖ Clear</button>
+      </div>
+    </section>
+
+    <section class="result-section" id="result-section" aria-live="polite" aria-atomic="true" aria-labelledby="result-heading" hidden>
+      <div class="result-card" id="result-card" role="region">
+        <div class="result-header">
+          <h2 class="result-title" id="result-heading">Result</h2>
+          <span class="result-category" id="result-category"></span>
+        </div>
+        <p class="result-rule-title" id="result-rule-title"></p>
+        <ol class="result-steps" id="result-steps" aria-label="Steps to follow"></ol>
+        <div class="result-warning" id="result-warning" role="alert" hidden>
+          <span class="warning-icon" aria-hidden="true">⚠️</span>
+          <p id="warning-text"></p>
+        </div>
+        <p class="result-fallback" id="result-fallback" hidden></p>
+      </div>
+    </section>
+
+    <section class="suggestions-section" aria-labelledby="suggestions-heading">
+      <h2 class="section-title" id="suggestions-heading">What can you ask?</h2>
+      <p class="section-desc">Tap any example below to fill it into the question box.</p>
+
+      <div class="suggestion-group" aria-label="Health examples">
+        <h3 class="suggestion-group-title">🏥 Health</h3>
+        <ul class="suggestion-list" role="list">
+          <li><button class="suggestion-btn" type="button" data-query="How do I book a doctor appointment?">How do I book a doctor appointment?</button></li>
+          <li><button class="suggestion-btn" type="button" data-query="How do I call an ambulance?">How do I call an ambulance?</button></li>
+          <li><button class="suggestion-btn" type="button" data-query="How do I order medicines online?">How do I order medicines online?</button></li>
+          <li><button class="suggestion-btn" type="button" data-query="How do I download my vaccination certificate?">How do I download my vaccination certificate?</button></li>
+        </ul>
+      </div>
+
+      <div class="suggestion-group" aria-label="Banking examples">
+        <h3 class="suggestion-group-title">🏦 Banking &amp; Payments</h3>
+        <ul class="suggestion-list" role="list">
+          <li><button class="suggestion-btn" type="button" data-query="How do I pay my electricity bill?">How do I pay my electricity bill?</button></li>
+          <li><button class="suggestion-btn" type="button" data-query="How do I send money using UPI?">How do I send money using UPI?</button></li>
+          <li><button class="suggestion-btn" type="button" data-query="How do I block my ATM card?">How do I block my ATM card?</button></li>
+          <li><button class="suggestion-btn" type="button" data-query="How do I recharge my mobile?">How do I recharge my mobile?</button></li>
+        </ul>
+      </div>
+
+      <div class="suggestion-group" aria-label="Government services examples">
+        <h3 class="suggestion-group-title">🏛️ Government Services</h3>
+        <ul class="suggestion-list" role="list">
+          <li><button class="suggestion-btn" type="button" data-query="How do I download my Aadhaar card?">How do I download my Aadhaar card?</button></li>
+          <li><button class="suggestion-btn" type="button" data-query="How do I apply for senior citizen pension?">How do I apply for senior citizen pension?</button></li>
+          <li><button class="suggestion-btn" type="button" data-query="How do I book a railway ticket with senior concession?">How do I book a railway ticket with senior concession?</button></li>
+          <li><button class="suggestion-btn" type="button" data-query="How do I check my pension status?">How do I check my pension status?</button></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <p id="footer-text">Senior Digital Assistant &mdash; Built for Digital Literacy &amp; Accessibility for Senior Citizens.</p>
+    <p class="footer-helpline">Need help? Call a family member or visit your nearest Common Service Centre (CSC).</p>
+  </footer>
+
+  <script>
+  // ──────────────── VOICE INPUT ────────────────
+  const speakBtn = document.getElementById("speak-btn");
+  const userInput = document.getElementById("user-input");
+  const langSelect = document.getElementById("lang-select");
+  const submitBtn = document.getElementById("submit-btn");
+
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+  if (SpeechRecognition) {
+    speakBtn.removeAttribute("disabled");
+    const recognition = new SpeechRecognition();
+    recognition.continuous = false;
+    recognition.interimResults = false;
+
+    speakBtn.addEventListener("click", () => {
+      recognition.lang = langSelect.value === "ta" ? "ta-IN" : "en-IN";
+      recognition.start();
+      speakBtn.textContent = "🎙️ Listening...";
+      speakBtn.disabled = true;
+    });
+
+    recognition.addEventListener("result", (e) => {
+      userInput.value = e.results[0][0].transcript;
+    });
+
+    recognition.addEventListener("end", () => {
+      speakBtn.textContent = "🎤 Speak";
+      speakBtn.disabled = false;
+      if (userInput.value.trim()) submitBtn.click();
+    });
+
+    recognition.addEventListener("error", () => {
+      speakBtn.textContent = "🎤 Speak";
+      speakBtn.disabled = false;
+    });
+  } else {
+    speakBtn.textContent = "🎤 Not Supported";
+  }
+
+  // ──────────────── VOICE OUTPUT ────────────────
+  function speakText(text, lang) {
+    if (!window.speechSynthesis) return;
+    window.speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = lang === "ta" ? "ta-IN" : "en-IN";
+    u.rate = 0.9;
+    u.pitch = 1;
+    u.volume = 1;
+    window.speechSynthesis.speak(u);
+  }
+
+  function buildSpeechText(data) {
+    if (data.response) return data.response;
+    const lang = langSelect.value;
+    let t = data.title ? data.title + ". " : "";
+    if (data.steps && data.steps.length > 0) {
+      t += (lang === "ta" ? "படிகள்: " : "Here are the steps. ");
+      data.steps.forEach(s => { t += s + ". "; });
+    }
+    if (data.warning) {
+      t += (lang === "ta" ? "எச்சரிக்கை: " : "Important warning. ") + data.warning;
+    }
+    return t;
+  }
+
+  // ──────────────── SUBMIT ────────────────
+  submitBtn.addEventListener("click", async () => {
+    const query = userInput.value.trim();
+    if (!query) return;
+
+    const resultSection = document.getElementById("result-section");
+    const resultRuleTitle = document.getElementById("result-rule-title");
+    const resultSteps = document.getElementById("result-steps");
+    const resultWarning = document.getElementById("result-warning");
+    const warningText = document.getElementById("warning-text");
+    const resultFallback = document.getElementById("result-fallback");
+    const resultCategory = document.getElementById("result-category");
+
+    resultRuleTitle.textContent = "";
+    resultSteps.innerHTML = "";
+    resultWarning.hidden = true;
+    resultFallback.hidden = true;
+    resultCategory.textContent = "";
+    resultSection.hidden = false;
+
+    try {
+      const selectedLang = langSelect.value;
+      const res = await fetch("/process", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: query, lang: selectedLang })
+      });
+      const data = await res.json();
+
+      if (data.title) resultRuleTitle.textContent = data.title;
+      if (data.steps && data.steps.length > 0) {
+        data.steps.forEach(step => {
+          const li = document.createElement("li");
+          li.textContent = step;
+          resultSteps.appendChild(li);
+        });
+      }
+      if (data.warning) {
+        warningText.textContent = data.warning;
+        resultWarning.hidden = false;
+      }
+      if (data.response) {
+        resultFallback.textContent = data.response;
+        resultFallback.hidden = false;
+      }
+      speakText(buildSpeechText(data), langSelect.value);
+    } catch (err) {
+      resultFallback.textContent = "Something went wrong. Please try again.";
+      resultFallback.hidden = false;
+    }
+  });
+
+  // ──────────────── CLEAR ────────────────
+  document.getElementById("clear-btn").addEventListener("click", () => {
+    userInput.value = "";
+    document.getElementById("result-section").hidden = true;
+    window.speechSynthesis && window.speechSynthesis.cancel();
+    userInput.focus();
+  });
+
+  // ──────────────── SUGGESTIONS ────────────────
+  document.querySelectorAll(".suggestion-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      userInput.value = btn.getAttribute("data-query");
+      userInput.focus();
+    });
+  });
+
+  // ──────────────── THEME TOGGLE ────────────────
+  document.getElementById("theme-toggle").addEventListener("click", () => {
+    const body = document.getElementById("body");
+    const btn = document.getElementById("theme-toggle");
+    if (body.classList.contains("light")) {
+      body.classList.replace("light", "dark");
+      btn.textContent = "🌙 Dark";
+    } else {
+      body.classList.replace("dark", "light");
+      btn.textContent = "☀️ Light";
+    }
+  });
+
+  // ──────────────── LANGUAGE SWITCH ────────────────
+  const uiStrings = {
+    en: {
+      subtitle: "Your simple guide to digital services",
+      inputHeading: "How can we help you today?",
+      inputDesc: "Type your question below or use the Speak button to ask by voice.",
+      placeholder: "Example: How do I pay my electricity bill?",
+      speakBtn: "🎤 Speak", submitBtn: "🔍 Get Help", clearBtn: "✖ Clear",
+      suggestionsHeading: "What can you ask?",
+      footerText: "Senior Digital Assistant — Built for Digital Literacy & Accessibility for Senior Citizens."
+    },
+    ta: {
+      subtitle: "டிஜிட்டல் சேவைகளுக்கான உங்கள் எளிய வழிகாட்டி",
+      inputHeading: "இன்று நாங்கள் எப்படி உதவலாம்?",
+      inputDesc: "கீழே உங்கள் கேள்வியை தட்டச்சு செய்யுங்கள் அல்லது குரல் மூலம் கேளுங்கள்.",
+      placeholder: "உதாரணம்: மின் கட்டணம் எப்படி கட்டுவது?",
+      speakBtn: " பேசுங்கள்", submitBtn: " உதவி பெறுங்கள்", clearBtn: "நிறுத்து",
+      suggestionsHeading: "நீங்கள் என்ன கேட்கலாம்?",
+      footerText: "முதியோர் டிஜிட்டல் உதவியாளர் — மூத்த குடிமக்களுக்கான டிஜிட்டல் கல்வி மற்றும் அணுகலுக்காக உருவாக்கப்பட்டது."
+    }
+  };
+
+  langSelect.addEventListener("change", () => {
+    const lang = langSelect.value;
+    const s = uiStrings[lang];
+    document.getElementById("main-subtitle").textContent = s.subtitle;
+    document.getElementById("input-heading").textContent = s.inputHeading;
+    document.getElementById("input-desc").textContent = s.inputDesc;
+    document.getElementById("user-input").placeholder = s.placeholder;
+    document.getElementById("submit-btn").textContent = s.submitBtn;
+    document.getElementById("clear-btn").textContent = s.clearBtn;
+    document.getElementById("suggestions-heading").textContent = s.suggestionsHeading;
+    document.getElementById("footer-text").textContent = s.footerText;
+    if (SpeechRecognition && !speakBtn.textContent.includes("Not Supported")) {
+      speakBtn.textContent = s.speakBtn;
+    }
+
+    // Update suggestion button labels and queries based on language
+    const suggestionMap = {
+      en: [
+        ["How do I book a doctor appointment?", "How do I book a doctor appointment?"],
+        ["How do I call an ambulance?", "How do I call an ambulance?"],
+        ["How do I order medicines online?", "How do I order medicines online?"],
+        ["How do I download my vaccination certificate?", "How do I download my vaccination certificate?"],
+        ["How do I pay my electricity bill?", "How do I pay my electricity bill?"],
+        ["How do I send money using UPI?", "How do I send money using UPI?"],
+        ["How do I block my ATM card?", "How do I block my ATM card?"],
+        ["How do I recharge my mobile?", "How do I recharge my mobile?"],
+        ["How do I download my Aadhaar card?", "How do I download my Aadhaar card?"],
+        ["How do I apply for senior citizen pension?", "How do I apply for senior citizen pension?"],
+        ["How do I book a railway ticket with senior concession?", "How do I book a railway ticket with senior concession?"],
+        ["How do I check my pension status?", "How do I check my pension status?"]
+      ],
+      ta: [
+        ["டாக்டர் அப்பாயின்ட்மென்ட் எப்படி புக் செய்வது?", "டாக்டர் அப்பாயின்ட்மென்ட்"],
+        ["ஆம்புலன்ஸ் எப்படி அழைப்பது?", "ஆம்புலன்ஸ் அழைக்க"],
+        ["ஆன்லைனில் மருந்து எப்படி வாங்குவது?", "மருந்து ஆர்டர்"],
+        ["தடுப்பூசி சான்றிதழ் எப்படி பதிவிறக்குவது?", "தடுப்பூசி சான்றிதழ்"],
+        ["மின் கட்டணம் எப்படி கட்டுவது?", "மின் கட்டணம்"],
+        ["UPI மூலம் பணம் எப்படி அனுப்புவது?", "UPI பணம் அனுப்ப"],
+        ["ATM கார்டை எப்படி தடுப்பது?", "ATM கார்டு தடுக்க"],
+        ["மொபைல் ரீசார்ஜ் எப்படி செய்வது?", "மொபைல் ரீசார்ஜ்"],
+        ["ஆதார் கார்டு எப்படி பதிவிறக்குவது?", "ஆதார் கார்டு"],
+        ["மூத்த குடிமக்கள் ஓய்வூதியம் எப்படி விண்ணப்பிப்பது?", "ஓய்வூதியம் விண்ணப்பம்"],
+        ["மூத்த குடிமக்கள் தள்ளுபடியில் ரயில் டிக்கெட் எப்படி புக் செய்வது?", "ரயில் டிக்கெட் புக்கிங்"],
+        ["என் ஓய்வூதிய நிலை எப்படி சரிபார்ப்பது?", "ஓய்வூதிய நிலை"]
+      ]
+    };
+
+    const buttons = document.querySelectorAll(".suggestion-btn");
+    const entries = suggestionMap[lang] || suggestionMap["en"];
+    buttons.forEach((btn, i) => {
+      if (entries[i]) {
+        btn.textContent = entries[i][0];
+        btn.setAttribute("data-query", entries[i][1]);
+      }
+    });
+  });
+  </script>
+
+</body>
+</html>
